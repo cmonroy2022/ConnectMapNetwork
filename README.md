@@ -1,30 +1,33 @@
-# Dark Openstreet Map
+# Red de Conectividad de Telefonía en Chile 📡🇨🇱
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Este proyecto visualiza alguna infraestructura de red en Chile, mostrando conexiones de fibra óptica, con información sobre el flujo de tráfico y capacidad de ancho de banda.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/cmonroy2022s-projects/v0-dark-openstreet-map)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/PmH60wGiTAi)
+![Mapa Interactivo](/images/map.png)
 
-## Overview
+## 🗺️ Funcionalidad Principal
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+Al iniciar el recorrido, el mapa se mueve automáticamente desde las zonas del norte hacia el sur, y luego regresa de sur a norte. Esto permite observar el flujo de datos y la capacidad de cada tramo de fibra óptica en un formato visual e interactivo.
 
-## Deployment
+## 🔍 Características
 
-Your project is live at:
+- **Visualización dinámica** del recorrido de la red.
+- **Flujo de tráfico en tiempo real** representado por colores y etiquetas de capacidad (en Gbps).
+- **Clasificación clara de nodos:**
+  - Hubs principales (círculo morado)
+  - Nodos secundarios (círculo gris)
+- **Tipos de conexión:**
+  - Fibra de alta capacidad (100 Gbps)
+  - Fibra media (10–40 Gbps)
+  - Enlace submarino (cuando aplica)
 
-**[https://vercel.com/cmonroy2022s-projects/v0-dark-openstreet-map](https://vercel.com/cmonroy2022s-projects/v0-dark-openstreet-map)**
+## 🏙️ Hubs Principales
 
-## Build your app
+- Santiago
+- Valparaíso
+- Concepción
 
-Continue building your app on:
+Estos actúan como puntos estratégicos con alta redundancia y capacidad de red.
 
-**[https://v0.dev/chat/projects/PmH60wGiTAi](https://v0.dev/chat/projects/PmH60wGiTAi)**
+## 📶 Ancho de Banda
 
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Las conexiones varían entre **5 Gbps** y **100 Gbps**, ajustándose a la demanda y a la importancia estratégica de cada enlace.
