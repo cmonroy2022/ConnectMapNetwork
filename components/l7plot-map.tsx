@@ -323,7 +323,7 @@ export default function L7PlotMap() {
         pitch: 45, // Mayor inclinación para mejor visualización 3D
         minZoom: 3,
         maxZoom: 10,
-        token: "pk.eyJ1IjoiY21vbnJveTIwMjIiLCJhIjoiY2x6c3FiaDAzMWdpdzJpb20xNHZkdjMxdyJ9.gh5Jlg9umlaeAnQ_S3M36A", // Token proporcionado
+        token: "", // Token proporcionado
         logoPosition: "bottom-right", // Intentar mover el logo a otra posición (puede que no afecte al logo de AntV)
       }),
       logoVisible: false, // Intentar ocultar el logo de L7
